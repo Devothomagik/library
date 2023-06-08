@@ -16,7 +16,10 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
-                                                        
+def otho(a):
+    calculate= a+150
+    return calculate
+
 
 #
 if __name__ == '__main__':
